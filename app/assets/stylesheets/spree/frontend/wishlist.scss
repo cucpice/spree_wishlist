@@ -1,13 +1,27 @@
+#wishlist_header #share-social-row {
+    width: 220px;
+}
+
+#wishlist_header {
+    h1{
+        float: left;
+        margin-top: 30px;
+    }
+    .pull-right{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        form{
+            font-size: 22px;
+            margin-bottom: 10px;
+            text-align: right;
+        }
+    }
+}
+
 #wishlist-form {
     margin-top: 5px;
 }
 
-#wishlist_header {
-    h1, div {
-        float: left;
-        width: 30%;
-    }
-}
 
 table#wishlist{
     width: 100%;
